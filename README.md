@@ -29,11 +29,12 @@ clang -framework IOKit -framework CoreFoundation -o kvm_off scrolllock_off.c
 
 sudo ./kvm_on   # Turns ON Scroll Lock LED (activates RGB/KVM)
 sudo ./kvm_off  # Turns OFF Scroll Lock LED
+```
 
-⚠️ sudo is required because controlling HID devices needs elevated permission.
+## ⚠️ sudo is required because controlling HID devices needs elevated permission.
 
 
-🔧 Advanced Usage
+## 🔧 Advanced Usage
 You can wrap these into:
 A macOS menu bar utility
 A dockless .app
@@ -44,9 +45,9 @@ Tested and works with:
 Zebronics Transformer Combo (Keyboard + Mouse)
 Other USB HID-compliant keyboards that use Scroll Lock LED for triggers
 
-MIT License
+## MIT License
 
-Copyright (c) 2025 Bishnudev
+### Copyright (c) 2025 Bishnudev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -57,6 +58,6 @@ furnished to do so, subject to the following conditions...
 
 [MIT license continues]
 
-🙌 Credits
+## 🙌 Credits
 Crafted with ❤️ by @Bishnudev
 If this helped, feel free to ⭐️ the repo or contribute!
